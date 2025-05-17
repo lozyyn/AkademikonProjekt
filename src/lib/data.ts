@@ -1,6 +1,6 @@
 // TEMPORARY DATA
 
-export let role = "admin";
+export let role = "student";
 
 export const teachersData = [
   {
@@ -915,44 +915,43 @@ export const announcementsData = [
   },
 ];
 
-
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
-  export const calendarEvents = [
-    {
-      title: "Math",
-      allDay: false,
-      start: new Date(2025, 3, 19, 8, 0),
-      end: new Date(2025, 3, 19, 8, 45),
-    },
-    {
-      title: "English",
-      allDay: false,
-      start: new Date(2025, 3, 19, 9, 0),
-      end: new Date(2025, 3, 19, 9, 45),
+export const calendarEvents = [
+  {
+    title: "Math",
+    allDay: false,
+    start: new Date(2025, 3, 27, 8, 0),
+    end: new Date(2025, 3, 27, 8, 45),
+  },
+  {
+    title: "English",
+    allDay: false,
+    start: new Date(2025, 3, 27, 9, 0),
+    end: new Date(2025, 3, 27, 9, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2025, 3, 19, 10, 0),
-    end: new Date(2025, 3, 19, 10, 45),
+    start: new Date(2025, 3, 27, 10, 0),
+    end: new Date(2025, 3, 27, 10, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2025, 3, 19, 11, 0),
-    end: new Date(2025, 3, 19, 11, 45),
+    start: new Date(2025, 3, 27, 11, 0),
+    end: new Date(2025, 3, 27, 11, 45),
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2025, 3, 19, 13, 0),
-    end: new Date(2025, 3, 19, 13, 45),
+    start: new Date(2025, 3, 27, 13, 0),
+    end: new Date(2025, 3, 27, 13, 45),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2025, 3, 19, 14, 0),
-    end: new Date(2025, 3, 19, 14, 45),
+    start: new Date(2025, 3, 21, 14, 0),
+    end: new Date(2025, 3, 21, 14, 45),
   },
   {
     title: "English",
